@@ -2,7 +2,7 @@
 
 > 更新完善中
 
-> 以下类库都在`\\netos\\helper`命名空间下
+> 以下类库都在`\\sunmens\\helper`命名空间下
 
 ## Time
 > 时间戳操作
