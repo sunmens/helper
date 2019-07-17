@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: sunmens <sunmens@gmail.com>
 // +----------------------------------------------------------------------
-namespace netos\helper;
+namespace sunmens\helper;
 
 class Time
 {
