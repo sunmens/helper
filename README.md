@@ -14,6 +14,9 @@ Time::today();
 // 昨日开始和结束的时间戳
 Time::yesterday();
 
+// 明天开始和结束的时间戳
+Time::tomorrow();
+
 // 本周开始和结束的时间戳
 Time::week();
 
