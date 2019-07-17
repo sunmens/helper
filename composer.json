@@ -1,5 +1,5 @@
 {
-    "name": "netos/helper",
+    "name": "sunmens/helper",
     "description": "The NetOS Helper Package",
     "license": "Apache-2.0",
     "authors": [
@@ -8,9 +8,12 @@
             "email": "sunmens@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=7.1.0"
+    },    
     "autoload": {
         "psr-4": {
-            "netos\\helper\\": "src"
+            "netos\\": "src"
         },
         "files": [
             "src/helper.php"
