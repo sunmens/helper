@@ -1,0 +1,19 @@
+{
+    "name": "netos/helper",
+    "description": "The NetOS Helper Package",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "sunmens",
+            "email": "sunmens@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "netos\\helper\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
