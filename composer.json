@@ -1,6 +1,7 @@
 {
     "name": "sunmens/helper",
     "description": "The NetOS Helper Package",
+    "keywords": ["php","thinkphp","netos","sunmens"],
     "license": "Apache-2.0",
     "authors": [
         {
@@ -8,6 +9,7 @@
             "email": "sunmens@gmail.com"
         }
     ],
+    "require": {},
     "autoload": {
         "psr-4": {
             "sunmens\\helper\\": "src"
