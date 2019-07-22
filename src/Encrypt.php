@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 namespace sunmens\helper;
 
-class Time
+class Encrypt
 {
     
     public static function encrypt($string, $key)
