@@ -13,14 +13,14 @@ namespace sunmens\helper;
 class Encrypt
 {
     
-    public static function encrypt($string, $key)
+    public static function encrypt($string, $key='')
     {
-        return $this->authcode($string, 'ENCODE', $key);
+        return self::authcode($string, 'ENCODE', $key);
     }
 
-    public static function decrypt($string, $key)
+    public static function decrypt($string, $key='')
     {
-        return $this->authcode($string, 'DECODE', $key);
+        return self::authcode($string, 'DECODE', $key);
     }
 
     /**
