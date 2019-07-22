@@ -4,6 +4,17 @@
 
 > 以下类库都在`\\sunmens\\helper`命名空间下
 
+## Encrypt
+> 加密解密
+
+```
+// 加密
+Encrypt::Encrypt();
+
+// 解密
+Encrypt::Decrypt();
+```
+
 ## Time
 > 时间戳操作
 
