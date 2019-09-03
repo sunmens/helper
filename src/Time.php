@@ -55,6 +55,20 @@ class Time
     }
 
     /**
+     * 返回某一天开始和结束的时间戳
+     *
+     * @return array
+     */
+    public static function day($day)
+    {
+        return [
+            mktime(0, 0, 0, date('m'), $day, date('Y')),
+            mktime(23, 59, 59, date('m'), $day, date('Y'))
+        ];
+    }
+
+
+    /**
      * 返回本周开始和结束的时间戳
      *
      * @return array
