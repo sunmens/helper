@@ -28,6 +28,9 @@ Time::yesterday();
 // 明天开始和结束的时间戳
 Time::tomorrow();
 
+// 某一天开始和结束的时间戳
+Time::day($t);
+
 // 本周开始和结束的时间戳
 Time::week();
 
